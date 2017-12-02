@@ -1,6 +1,6 @@
 def wedding_mad_libs():
     noun_1 = input("Enter a name: ")
-    noun_2 = input("Enter a noun: ")
+    noun_2 = input("Enter a location: ")
     noun_3 = input("Enter a noun: ")
     noun_4 = input("Enter a noun: ")
     noun_5 = input("Enter a noun: ")
@@ -22,7 +22,7 @@ def wedding_mad_libs():
     sentence_3 = "I am so {} that Nathaniel and Claire are tying the knot! "
     sentence_4 = "They have to be the most {} {} and I wish them {} {} for years to come. My best advice? "
     sentence_5 = "Don't forget to {} before you {} and {} after the {}. "
-    sentence_6 = "Nathaniel, you should always {} Jade's {}, and Jade you should always {} Sean's {}. "
+    sentence_6 = "Nathaniel, you should always {} Claire's {}, and Claire you should always {} Nathaniel's {}. "
     sentence_7 = "I wish you both a lifetime of happiness and {}!"
     sentence_8 = "Love {}"
     print(sentence_1.format(noun_1, var_num) + sentence_2.format(past_verb, noun_2) + sentence_3.format(adjective_1))

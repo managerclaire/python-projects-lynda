@@ -2,8 +2,7 @@ from random import *
 
 def guess_number():
     valid = False
-    int_valid = False
-    n = randint(1,100)
+    n = randint(1 , 100)
     while valid == False:
         x = input("Guess an integer between 1 and 100: ")
         try:
